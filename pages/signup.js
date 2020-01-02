@@ -4,7 +4,7 @@ import Link from 'next/link';
 import catchErrors from '../utils/catchErrors';
 import axios from 'axios';
 import baseUrl from '../utils/baseUrl';
-import handleLogin from '../utils/auth';
+import { handleLogin } from '../utils/auth';
 
 const INITIAL_USER = {
   name: '',
