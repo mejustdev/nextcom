@@ -1,5 +1,5 @@
 function calculateCartTotal(products) {
-  console.log(products);
+  // console.log(products);
   const total = products.reduce((acc, el) => {
     acc += el.product.price * el.quantity;
     return acc;

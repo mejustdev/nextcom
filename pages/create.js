@@ -42,7 +42,6 @@ function CreateProduct() {
     data.append('upload_preset', 'reactreserve');
     data.append('cloud_name', 'mergorgec');
     const response = await axios.post(process.env.CLOUDINARY_URL, data);
-    console.log('response----------' + response);
     const mediaUrl = response.data.url;
     return mediaUrl;
   }
@@ -53,12 +52,11 @@ function CreateProduct() {
       setLoading(true);
       setError('');
       const mediaUrl = await handleImageUpload();
-      console.log({ mediaUrl });
       const url = `${baseUrl}/api/product`;
       const { name, price, description } = product;
       const payload = { name, price, description, mediaUrl };
       const response = await axios.post(url, payload);
-      console.log({ response });
+      // console.log({ response });
       setProduct(INITIAL_PRODUCT);
       setSuccess(true);
     } catch (error) {

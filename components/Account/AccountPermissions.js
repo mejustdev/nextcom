@@ -17,7 +17,7 @@ function AccountPermissions() {
     const token = cookie.get('token');
     const payload = { headers: { Authorization: token } };
     const response = await axios.get(url, payload);
-    console.log(response.data);
+    // console.log(response.data);
     setUsers(response.data);
   }
 
