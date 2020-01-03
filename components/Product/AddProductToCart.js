@@ -1,3 +1,4 @@
+import React from 'react';
 import { Input } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
 import axios from 'axios';
@@ -16,7 +17,6 @@ function AddProductToCart({ user, productId }) {
     if (success) {
       timeout = setTimeout(() => setSuccess(false), 3000);
     }
-    // When component unmounted
     return () => {
       clearTimeout(timeout);
     };
@@ -37,6 +37,7 @@ function AddProductToCart({ user, productId }) {
       setLoading(false);
     }
   }
+
   return (
     <Input
       type='number'
@@ -48,7 +49,7 @@ function AddProductToCart({ user, productId }) {
         user && success
           ? {
               color: 'blue',
-              content: 'Item added!',
+              content: 'Item Added!',
               icon: 'plus cart',
               disabled: true,
             }
