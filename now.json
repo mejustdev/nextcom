@@ -1,7 +1,7 @@
 {
-  "name": "react-reserve",
+  "name": "reactreserve",
   "alias": "e-reserve.now.sh",
-  "version": 1,
+  "version": 2,
   "env": {
     "MONGO_SRV": "mongodb+srv://mergorgec:mypassword@reactreserve-fzux2.mongodb.net/test?retryWrites=true&w=majority",
     "JWT_SECRET": "mysecret",
