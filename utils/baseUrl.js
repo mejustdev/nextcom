@@ -1,6 +1,3 @@
-const baseUrl =
-  process.env.NODE_ENV === 'production'
-    ? 'https://react-next-e-commerce.herokuapp.com'
-    : 'http://localhost:3000';
+const baseUrl = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3000';
 
 export default baseUrl;
