@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="static/nextcomlogo.png" alt="" width="200">
+  <img src="static/nextcom-logo.png" alt="" width="200">
   <br>
 Serves Fast
 </h1>
