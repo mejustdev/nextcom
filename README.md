@@ -12,7 +12,7 @@ Serves Fast
 
 - [Initial Configuration](#initial-configuration)
 - [Developing](#developing)
-- [Deploying / Publishing](#deploying-/-publishing)
+- [Deploying/Publishing](#deploying-/-publishing)
 - [Features](#features)
 - [Covered Topics](#covered-topics)
 - [Links](#links)
