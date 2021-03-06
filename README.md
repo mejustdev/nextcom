@@ -10,18 +10,13 @@ Serves Fast
 
 ## Table of contents
 
-- [Full Stack React Next.js MongoDB Express.js E-Commerce Application](#full-stack-react-nextjs-mongodb-expressjs-e-commerce-application)
-  - [Table of contents](#table-of-contents)
-    - [Initial Configuration](#initial-configuration)
-    - [Developing](#developing)
-      - [Building](#building)
-      - [Running on Development Mode](#running-on-development-mode)
-    - [Deploying / Publishing](#deploying--publishing)
-    - [Features](#features)
-    - [Covered topics](#covered-topics)
-    - [Contributing](#contributing)
-    - [Links](#links)
-    - [Licensing](#licensing)
+- [Initial Configuration](#initial-configuration)
+- [Developing](#developing)
+- [Deploying / Publishing](#deploying-/-publishing)
+- [Features](#features)
+- [Covered Topics](#covered-topics)
+- [Links](#links)
+
   
 
 ### Initial Configuration
