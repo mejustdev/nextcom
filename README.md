@@ -8,6 +8,22 @@ Serves Fast
 # Full Stack React Next.js MongoDB Express.js E-Commerce Application
 > Best practices to learn  Next.js. Fundamentals concepts of e-commerce applications are covered.
 
+## Table of contents
+
+- [Full Stack React Next.js MongoDB Express.js E-Commerce Application](#full-stack-react-nextjs-mongodb-expressjs-e-commerce-application)
+  - [Table of contents](#table-of-contents)
+    - [Initial Configuration](#initial-configuration)
+    - [Developing](#developing)
+      - [Building](#building)
+      - [Running on Development Mode](#running-on-development-mode)
+    - [Deploying / Publishing](#deploying--publishing)
+    - [Features](#features)
+    - [Covered topics](#covered-topics)
+    - [Contributing](#contributing)
+    - [Links](#links)
+    - [Licensing](#licensing)
+  
+
 ### Initial Configuration
 
 1. Database
@@ -29,7 +45,7 @@ You need `Stripe Key`
 
 - Make sure you have installed `Node.js` and `npm`.
 
-## Developing
+### Developing
 
 
 ```shell
@@ -38,7 +54,7 @@ cd nextcom
 npm install
 ```
 In order to seed database use `static` / `products.json` and follow this [video](https://www.youtube.com/watch?v=tpz-6Trd1UI)'s intructions and import it to the MongoDb Atlas.
-### Building
+#### Building
 
 Create `next.config.js` file at the root of your application. Paste your credentials. Do not forget to add this file to the `.gitignore`.
 
@@ -52,7 +68,7 @@ module.exports = {
   },
 };
 ```
-### Running on Development Mode
+#### Running on Development Mode
 
 
 ```bash
@@ -78,6 +94,8 @@ You can deploy your project via ***Vercel CLI*** or ***Vercel dashboard***
 
 Visit for more detailed information about deployment on [Vercel](https://vercel.com/docs/platform/deployments)
 
+> **Don't forget to make sure your production database is not whitelisted in MongoDB Atlas, otherwise the database connection will fail and your app will crash.**
+
 `CLI`
 
 ```shell
@@ -85,7 +103,7 @@ npm i -g vercel
 vercel
 ```
 After deploying, go to the  `utils` / `baseUrl.js` and update **production url** with yours and again use Git Flow and your app will be automatically re-deployed.
-## Features
+### Features
 
 - Complete User **Authentication** (Login / Signup)
 - **Authorization** and Managing Multiple User Roles (guest, user, admin)
@@ -98,7 +116,7 @@ After deploying, go to the  `utils` / `baseUrl.js` and update **production url**
 
 <img src="static/nextcomapp1.png" alt="" width="1200">
 
-## Covered topics
+### Covered topics
 
 - **React Hooks** throughout the entire App
 - Next.js API Routes
@@ -115,12 +133,12 @@ After deploying, go to the  `utils` / `baseUrl.js` and update **production url**
 - **Securing private data** with environment variables
 - **Validating Requests** in Node / Express Apps
 
-## Contributing
+### Contributing
 
 "If you'd like to contribute, please fork the repository and use a feature
 branch. Pull requests are warmly welcome."
 
-## Links
+### Links
 
 - Project homepage: https://nextcom-eight.vercel.app/
 - Repository: https://github.com/mejustdev/nextcom
@@ -133,7 +151,7 @@ branch. Pull requests are warmly welcome."
   
 
 
-## Licensing
+### Licensing
 
 "The code in this project is licensed under MIT license."
 
