@@ -6,7 +6,7 @@ Serves Fast
 </h1>
 
 # Full Stack React Next.js MongoDB Express.js E-Commerce Application
-> Best practices to learn  Next.js. Fundamentals concepts of e-commerce applications are covered.
+> Best practices to learn  Next.js. Fundamentals concepts of e-commerce applications are covered
 
 ## Table of contents
 
